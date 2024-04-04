@@ -1,10 +1,10 @@
-# CNN vs. ViT on Elephants
+# ViT vs. CNN on Elephants
 
-CNN vs. ViT on Elephants - Image Binary Classification on African vs. Asian Elephants Dataset
+ViT vs. CNN on Elephants - Image Binary Classification on African vs. Asian Elephants Dataset
 
 <h1 align="center">
   <br>
-CNN vs. ViT on Elephants <br> Image Binary Classification on African vs. Asian Elephants Dataset
+ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian Elephants Dataset
   <br>
 </h1>
   <h3 align="center">
