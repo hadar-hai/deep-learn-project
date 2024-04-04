@@ -22,9 +22,8 @@ CNN vs. ViT on Elephants <br> Image Binary Classification on African vs. Asian E
     <a href="להשלים"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </h4>
 
-
 <p align="center">
-  <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/blob/main/gifs/human_classification_demo.gif" height="120">
+<img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/b365f642-bf68-43ac-88f2-49fab6aae3ee"/>
 </p>
 
 ## Prerequisites
