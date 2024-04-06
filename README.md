@@ -28,30 +28,32 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 ## Prerequisites
 
-| Library           | Version    | Why                                                |
-|-------------------|------------|-------------------------------------------------------|
-| `matplotlib`      | -          | Plotting and visualization                            |
-| `time`            | -          | Time-related functions                                |
-| `os`              | -          | Operating system interface                            |
-| `copy`            | -          | Shallow and deep copy operations                      |
-| `pdb`             | -          | Python Debugger                                       |
-| `pandas`          | -          | Data manipulation and analysis                        |
-| `random`          | -          | Random number generation                              |
-| `shutil`          | -          | High-level file operations                            |
-| `torch`           | >= 1.0.0   | Deep learning framework                               |
-| `torch.nn`        | -          | Neural network operations                             |
-| `torch.nn.functional` | -      | Functional interface for neural network operations    |
-| `torch.utils.data` | -         | Utilities for data loading and processing             |
-| `torchvision.datasets` | -     | Datasets and transformations for vision tasks         |
-| `torchvision.transforms` | -   | Image transformations for vision tasks                |
-| `kornia`          | -          | Differentiable computer vision library for PyTorch    |
-| `kornia.augmentation` | -      | Image augmentation                                    |
-| `kornia.geometry.transform` | - | Geometric transformations for images                  |
-| `PIL`             | -          | Python Imaging Library for image processing           |
-| `tkinter`         | -          | GUI Toolkit for Python                                |
-| `datetime`        | -          | Date and time manipulation                            |
-| `ImageTk`         | -          | PIL extension for displaying images in Tkinter        |
-| `Image`           | -          | PIL module for image processing                       |
+| Library                  | Why                                                             |
+|--------------------------|-----------------------------------------------------------------|
+| `matplotlib.pyplot`      | Plotting and visualization                                      |
+| `time`                   | Time-related functions                                          |
+| `os`                     | Operating system interface                                      |
+| `copy`                   | Shallow and deep copy operations                                |
+| `PIL`                    | Python Imaging Library for image processing                     |
+| `cv2`                    | OpenCV library for computer vision tasks                        |
+| `pandas`                 | Data manipulation and analysis                                  |
+| `torch`                  | Deep learning framework                                         |
+| `torch.nn`               | Neural network operations                                       |
+| `torch.nn.functional`    | Functional interface for neural network operations              |
+| `torch.utils.data`       | Utilities for data loading and processing                       |
+| `torchvision.datasets`   | Datasets and transformations for vision tasks                   |
+| `torchvision.transforms` | Image transformations for vision tasks                          |
+| `sklearn`                | Machine learning library                                        |
+| `sklearn.metrics`        | Metrics for evaluating machine learning models                   |
+| `IPython.display`        | Displaying images in IPython                                    |
+| `kornia`                 | Differentiable computer vision library for PyTorch              |
+| `kornia.augmentation`    | Image augmentation                                              |
+| `kornia.geometry.transform` | Geometric transformations for images                            |
+| `pytorch_grad_cam`       | Package for visualizing convolutional neural network activation maps |
+| `tkinter`                | GUI Toolkit for Python                                          |
+| `datetime`               | Date and time manipulation                                      |
+| `random`                 | Random number generation                                        |
+
 
 
 ## Datasets
@@ -63,13 +65,11 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 | File name                                            | Content                                                                                     |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| `/checkpoints (now models)`                                       | directory for trained checkpoints       and models                                                |
+| `/checkpoints`                                       | directory for trained checkpoints models and histories                                                |
 | `/assets`                                            | directory for assets (gifs, images, etc.)                                  |
 | `/docs`                                              | various documentation files                                                                 |
 | `/notebooks`                                         | Jupyter Notebooks used for training and evaluation                                         |
-| `/histories`                                         | models checkpoints training history by epochs                                   |
 | `/logs`                                         | human classification results per person                                   |
 | `human_classification.py`                                 | `tkinter`-based interactive GUI to collect data on human classification performance on the African vs. Asian dataset                |
-| `environment.yml`                                    | Anaconda environment file to install the required dependencies                              |
 | `requirements.txt`                                   | requirements file for `pip`                                                                 |
 
