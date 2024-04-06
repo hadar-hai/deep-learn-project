@@ -70,6 +70,6 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 | `/docs`                                              | various documentation files                                                                 |
 | `/notebooks`                                         | Jupyter Notebooks used for training and evaluation                                         |
 | `/logs`                                         | human classification results per person                                   |
-| `human_classification.py`                                 | `tkinter`-based interactive GUI to collect data on human classification performance on the African vs. Asian dataset                |
+| `/tools/human_classification.py`                                 | `tkinter`-based interactive GUI to collect data on human classification performance on the African vs. Asian dataset                |
 | `requirements.txt`                                   | requirements file for `pip`                                                                 |
 
