@@ -44,7 +44,7 @@ The main contribution of the project lies in the evaluation and comparison of di
 The following images depict the performance metrics and visualizations from the experiments conducted in this project:
 
 <p align="center">
-    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/34e1f1aa-2a45-4128-9ae5-bf8475d58fcc" width="300">
+    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/34e1f1aa-2a45-4128-9ae5-bf8475d58fcc" width="400">
 </p>
 <p align="center">
     <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/c6f59665-51ce-49e2-93a8-b5696cd1ce50" width="500">
