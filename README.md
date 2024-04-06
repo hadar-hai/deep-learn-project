@@ -18,9 +18,47 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 <h4 align="center"><a href="להשלים">Project Presentation Video</a>
 
+
 <p align="center">
 <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/b365f642-bf68-43ac-88f2-49fab6aae3ee"/>
 </p>
+
+
+# Elephant Image Classification: ViT vs CNN
+
+This project focuses on evaluating Convolutional Neural Networks (CNN) and Visual Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available datasets, this project contributes to elephant conservation and research efforts.
+
+## Overview
+
+The main contribution of the project lies in the evaluation and comparison of different models, particularly focusing on CNN models: MobileNet V3 Large, ResNet50, and Visual Transformers (ViT) models: ViT-b-16 and DINOv2 for image classification tasks, specifically distinguishing between Asian elephants and African elephants.
+
+### Key Findings
+
+- **MobileNet V3 Large**: Achieved competitive accuracy despite its lightweight nature, demonstrating its efficiency in resource-constrained environments.
+- **CNNs Performance**: Closely aligns with the baseline, suggesting their reliability and consistency in image classification tasks.
+- **ViT Models**: Outperformed the CNN models, with self-supervised ViT models achieving the highest accuracy, highlighting their effectiveness in capturing spatial relationships.
+- **Importance of Dataset Size**: Training a ViT model from scratch with a small dataset may lead to poor results, emphasizing the importance of dataset size and pretraining strategies in ViT model performance.
+
+## Results
+
+The following images depict the performance metrics and visualizations from the experiments conducted in this project:
+
+<p align="center">
+    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/34e1f1aa-2a45-4128-9ae5-bf8475d58fcc" width="300">
+</p>
+<p align="center">
+    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/c6f59665-51ce-49e2-93a8-b5696cd1ce50" width="500">
+</p>
+
+### CNN Results
+<p align="center">
+    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/f89b254f-2a87-48c1-a04e-0587d97ba51a" width="500">
+</p>
+
+## Conclusion
+
+Overall, the project provides valuable insights into the performance of different models and underscores the importance of considering factors such as model architecture, dataset size, and pretraining strategies in image classification tasks.
+
 
 ## Prerequisites
 
