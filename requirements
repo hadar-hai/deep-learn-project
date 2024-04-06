@@ -1,2 +1,2 @@
-pip install numpy matplotlib Pillow opencv-python pandas torch torchvision scikit-learn kornia ipython pytorch-grad-cam tkinter
+pip install numpy matplotlib opencv-python pandas torch torchvision scikit-learn kornia ipython pytorch-grad-cam tkinter
 pip install grad-cam
