@@ -71,8 +71,6 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 ## References
 
-## References
-
 - Jacob Gil. "pytorch-grad-cam repository." GitHub. [https://github.com/jacobgil/pytorch-grad-cam/tree/master](https://github.com/jacobgil/pytorch-grad-cam/tree/master)
 
 - Luthei. "VIT vs CNN on WikiArt." Kaggle. [https://www.kaggle.com/code/luthei/vit-vs-cnn-on-wikiart](https://www.kaggle.com/code/luthei/vit-vs-cnn-on-wikiart)
