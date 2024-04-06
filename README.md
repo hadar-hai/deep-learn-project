@@ -124,3 +124,7 @@ Overall, the project provides valuable insights into the performance of differen
 
 This project is a part of the ECE 046211 Deep Learning course at the Technion. We would like to express our gratitude to [Tal Daniel](https://taldatech.github.io/) and [Prof. Daniel Soudry](https://soudry.github.io/) for their guidance and support throughout this project and the course.
 
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
