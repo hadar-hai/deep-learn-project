@@ -69,3 +69,16 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 | `/tools/human_classification.py`                                 | `tkinter`-based interactive GUI to collect data on human classification performance on the African vs. Asian dataset                |
 | `requirements.txt`                                   | requirements file for `pip`                                                                 |
 
+## References
+
+## References
+
+- Jacob Gil. "pytorch-grad-cam repository." GitHub. [https://github.com/jacobgil/pytorch-grad-cam/tree/master](https://github.com/jacobgil/pytorch-grad-cam/tree/master)
+
+- Luthei. "VIT vs CNN on WikiArt." Kaggle. [https://www.kaggle.com/code/luthei/vit-vs-cnn-on-wikiart](https://www.kaggle.com/code/luthei/vit-vs-cnn-on-wikiart)
+
+- Vivmankar. "Asian vs African Elephant Image Classification Dataset." Kaggle. [https://www.kaggle.com/datasets/vivmankar/asian-vs-african-elephant-image-classification](https://www.kaggle.com/datasets/vivmankar/asian-vs-african-elephant-image-classification)
+
+- Nasruddin Az. "Elephclass: Asian vs African Elephants Classifier." Kaggle. [https://www.kaggle.com/code/nasruddinaz/elephclass-asian-vs-african-elephants-classifier](https://www.kaggle.com/code/nasruddinaz/elephclass-asian-vs-african-elephants-classifier)
+
+- Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017). [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
