@@ -18,12 +18,6 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 <h4 align="center"><a href="להשלים">Project Presentation Video</a>
 
-
-<p align="center">
-<img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/b365f642-bf68-43ac-88f2-49fab6aae3ee"/>
-</p>
-
-
 # Elephant Image Classification: ViT vs CNN
 
 This project focuses on evaluating Convolutional Neural Networks (CNN) and Visual Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available datasets, this project contributes to elephant conservation and research efforts.
@@ -48,6 +42,11 @@ The following images depict the performance metrics and visualizations from the 
 </p>
 <p align="center">
     <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/c6f59665-51ce-49e2-93a8-b5696cd1ce50" width="500">
+</p>
+
+#### Image Human Classification Tool
+<p align="center">
+<img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/b365f642-bf68-43ac-88f2-49fab6aae3ee"/>
 </p>
 
 ### CNN Results
@@ -118,3 +117,9 @@ Overall, the project provides valuable insights into the performance of differen
 - Nasruddin Az. "Elephclass: Asian vs African Elephants Classifier." Kaggle. [https://www.kaggle.com/code/nasruddinaz/elephclass-asian-vs-african-elephants-classifier](https://www.kaggle.com/code/nasruddinaz/elephclass-asian-vs-african-elephants-classifier)
 
 - Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017). [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
+
+
+## Acknowledgments
+
+This project is a part of the ECE 046211 Deep Learning course at the Technion. We would like to express our gratitude to [Tal Daniel](https://taldatech.github.io/) and [Prof. Daniel Soudry](https://soudry.github.io/) for their guidance and support throughout this project and the course.
+
