@@ -45,11 +45,12 @@ The following images depict the performance metrics and visualizations from the 
 </p>
 
 #### Image Human Classification Tool
+
 <p align="center">
-    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/human_classification_demo.gif" width="500">
+  <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/blob/main/assets/human_classification_demo.gif" alt="Human Classification Demo">
 </p>
 
-### CNN Results
+#### CNN Results
 <p align="center">
     <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/f89b254f-2a87-48c1-a04e-0587d97ba51a" width="500">
 </p>
