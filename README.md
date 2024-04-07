@@ -20,22 +20,16 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 # Elephant Image Classification: ViT vs CNN
 
-This project focuses on evaluating Convolutional Neural Networks (CNN) and Vision Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available datasets, this project contributes to elephant conservation and research efforts.
-
-## Overview
-
-The main contribution of the project lies in the evaluation and comparison of different models, particularly focusing on CNN models: MobileNet V3 Large, ResNet50, and Vision Transformers (ViT) models: ViT-b-16 and DINOv2 for image classification tasks, specifically distinguishing between Asian elephants and African elephants.
+This project focuses on evaluating Convolutional Neural Networks (CNN) and Vision Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. The project focuses on the models of MobileNet, ResNet, ViT-b-16 and DINOv2. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available datasets, this project contributes to elephant conservation and research efforts.
 
 ### Key Findings
 
-- **MobileNet V3 Large**: Achieved competitive accuracy despite its lightweight nature, demonstrating its efficiency in resource-constrained environments.
-- **CNNs Performance**: Closely aligns with the baseline, suggesting their reliability and consistency in image classification tasks.
 - **ViT Models**: Outperformed the CNN models, with self-supervised ViT models achieving the highest accuracy, highlighting their effectiveness in capturing spatial relationships.
-- **Importance of Dataset Size**: Training a ViT model from scratch with a small dataset may lead to poor results, emphasizing the importance of dataset size and pretraining strategies in ViT model performance.
+- **Importance of Pretrained Dataset Size**: Achieving good results for ViT on small dataset requires utilizing pretrained model on a huge dataset such as ImageNet. 
 
 ## Results
 
-The following images depict the performance metrics and visualizations from the experiments conducted in this project:
+The following images depict the performance metrics and visualizations from the experiments conducted in this project for best CNN model (ResNet) and best ViT model (DINOv2):
 
 <p align="center">
     <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/34e1f1aa-2a45-4128-9ae5-bf8475d58fcc" width="400">
@@ -50,21 +44,21 @@ The following images depict the performance metrics and visualizations from the 
   <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/blob/main/assets/human_classification_demo.gif" alt="Human Classification Demo">
 </p>
 
-#### CNN Results
+#### CNN Results - Activation Map
 <p align="center">
     <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/f89b254f-2a87-48c1-a04e-0587d97ba51a" width="500">
 </p>
 
 ## Conclusion
 
-Overall, the project provides valuable insights into the performance of different models and underscores the importance of considering factors such as model architecture, dataset size, and pretraining strategies in image classification tasks.
+Overall, the project provides valuable insights into the performance of different models and underscores the importance of considering factors such as model architecture, dataset size and pretraining strategies in image classification tasks. Specifically, when dealing with small datasets, Self-supervised ViT (pretrained on large dataset) outperforms other methods.
 
 
 ## Prerequisites
 
 | Library                  | Why                                                             |
 |--------------------------|-----------------------------------------------------------------|
-| `matplotlib.pyplot`      | Plotting and visualization                                      |
+| `matplotlib`             | Plotting and visualization                                      |
 | `time`                   | Time-related functions                                          |
 | `os`                     | Operating system interface                                      |
 | `copy`                   | Shallow and deep copy operations                                |
@@ -72,17 +66,10 @@ Overall, the project provides valuable insights into the performance of differen
 | `cv2`                    | OpenCV library for computer vision tasks                        |
 | `pandas`                 | Data manipulation and analysis                                  |
 | `torch`                  | Deep learning framework                                         |
-| `torch.nn`               | Neural network operations                                       |
-| `torch.nn.functional`    | Functional interface for neural network operations              |
-| `torch.utils.data`       | Utilities for data loading and processing                       |
-| `torchvision.datasets`   | Datasets and transformations for vision tasks                   |
-| `torchvision.transforms` | Image transformations for vision tasks                          |
+| `torchvision`            | Datasets and transformations for vision tasks                   |
 | `sklearn`                | Machine learning library                                        |
-| `sklearn.metrics`        | Metrics for evaluating machine learning models                   |
-| `IPython.display`        | Displaying images in IPython                                    |
+| `IPython`                | Displaying images in IPython                                    |
 | `kornia`                 | Differentiable computer vision library for PyTorch              |
-| `kornia.augmentation`    | Image augmentation                                              |
-| `kornia.geometry.transform` | Geometric transformations for images                            |
 | `pytorch_grad_cam`       | Package for visualizing convolutional neural network activation maps |
 | `tkinter`                | GUI Toolkit for Python                                          |
 | `datetime`               | Date and time manipulation                                      |
