@@ -32,10 +32,10 @@ This project focuses on evaluating Convolutional Neural Networks (CNN) and Visio
 The following images depict the performance metrics and visualizations from the experiments conducted in this project for best CNN model (ResNet) and best ViT model (DINOv2):
 
 <p align="center">
-    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/34e1f1aa-2a45-4128-9ae5-bf8475d58fcc" width="400">
+    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/228f3f99-100e-4282-bdf0-f7ca311337d4" width="400">
 </p>
 <p align="center">
-    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/c6f59665-51ce-49e2-93a8-b5696cd1ce50" width="500">
+    <img src="https://github.com/hadar-hai/vit-vs-cnn-on-elephants/assets/64587231/8197ce11-a78c-40e8-9001-e564d7284fbd" width="500">
 </p>
 
 #### Image Human Classification Tool
