@@ -20,11 +20,11 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 # Elephant Image Classification: ViT vs CNN
 
-This project focuses on evaluating Convolutional Neural Networks (CNN) and Visual Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available datasets, this project contributes to elephant conservation and research efforts.
+This project focuses on evaluating Convolutional Neural Networks (CNN) and Vision Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available datasets, this project contributes to elephant conservation and research efforts.
 
 ## Overview
 
-The main contribution of the project lies in the evaluation and comparison of different models, particularly focusing on CNN models: MobileNet V3 Large, ResNet50, and Visual Transformers (ViT) models: ViT-b-16 and DINOv2 for image classification tasks, specifically distinguishing between Asian elephants and African elephants.
+The main contribution of the project lies in the evaluation and comparison of different models, particularly focusing on CNN models: MobileNet V3 Large, ResNet50, and Vision Transformers (ViT) models: ViT-b-16 and DINOv2 for image classification tasks, specifically distinguishing between Asian elephants and African elephants.
 
 ### Key Findings
 
@@ -117,7 +117,8 @@ Overall, the project provides valuable insights into the performance of differen
 
 - Nasruddin Az. "Elephclass: Asian vs African Elephants Classifier." Kaggle. [https://www.kaggle.com/code/nasruddinaz/elephclass-asian-vs-african-elephants-classifier](https://www.kaggle.com/code/nasruddinaz/elephclass-asian-vs-african-elephants-classifier)
 
-- Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017). [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
+- "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" by Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, et al.
+  [ArXiv](https://arxiv.org/abs/2010.11929v2)
 
 
 ## Acknowledgments
