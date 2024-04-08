@@ -16,7 +16,7 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 <h4 align="center">046211 ECE Technion 2024</h4>
 
-<h4 align="center"><a href="https://youtu.be/OS2zNugIzk8">Project Presentation Video</a>
+<h4 align="center"><a href="https://www.youtube.com/watch?v=OS2zNugIzk8">Project Presentation Video</a>
 
 # Elephant Image Classification: ViT vs CNN
 
