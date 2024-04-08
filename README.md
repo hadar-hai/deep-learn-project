@@ -16,11 +16,11 @@ ViT vs. CNN on Elephants <br> Image Binary Classification on African vs. Asian E
 
 <h4 align="center">046211 ECE Technion 2024</h4>
 
-<h4 align="center"><a href="להשלים">Project Presentation Video</a>
+<h4 align="center"><a href="https://youtu.be/OS2zNugIzk8">Project Presentation Video</a>
 
 # Elephant Image Classification: ViT vs CNN
 
-This project focuses on evaluating Convolutional Neural Networks (CNN) and Vision Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. The project focuses on the models of MobileNet, ResNet, ViT-b-16 and DINOv2. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available datasets, this project contributes to elephant conservation and research efforts.
+This project focuses on evaluating Convolutional Neural Networks (CNN) and Vision Transformers (ViT) for image classification tasks, specifically distinguishing between Asian elephants and African elephants. The project focuses on the models of MobileNet, ResNet, ViT-b-16 and DINOv2. Leveraging transfer learning with pre-trained models, we aim to achieve accurate analysis and classification of images depicting these majestic creatures. By utilizing publicly available dataset, this project contributes to elephant conservation and research efforts.
 
 ### Key Findings
 
